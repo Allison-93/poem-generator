@@ -8,35 +8,41 @@
     <title>AI Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI Poem Generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter a topic for the poem..."
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        the poem
-        <br />
-        whatever it should say
-      </div>
-    </main>
-    <footer>
-      This AI poem generator was coded by<a
-        href="https://github.com/Allison-93"
-        target="_blank"
-      >
-        Allison_Moopanar</a
-      >
-      and is open sourced on GitHub and hosted on Netlify.
-    </footer>
+    <div class="container">
+      <header>
+        <h1>AI Poem Generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter a topic for the poem..."
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          the poem
+          <br />
+          whatever it should say
+        </div>
+      </main>
+      <footer>
+        This AI poem generator was coded by<a
+          href="https://github.com/Allison-93"
+          target="_blank"
+        >
+          Allison Moopanar</a
+        >
+        and is open sourced on
+        <a href="https://github.com/Allison-93/poem-generator">GitHub</a> and
+        hosted on
+        <a href="https://allison-poem-generator.netlify.app/">Netlify</a>.
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
